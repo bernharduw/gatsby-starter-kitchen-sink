@@ -5,7 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "front-matter": "^2.1.2",
-    "gatsby": "^0.12.42",
+    "gatsby": "^1.9.234",
     "highlight.js": "^9.10.0",
     "history": "^2.0.2",
     "js-yaml": "^3.8.3",
