@@ -1,0 +1,739 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gatsby > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > detect-port > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > path-array > array-index > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:extend:20180424':
+    - gatsby > node-sass > request > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:hoek:20180212':
+    - gatsby > hapi > subtext > content > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > request > hawk > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > boom > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > content > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > b64 > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > nigel > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > content > boom > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > subtext > pez > nigel > vise > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:47.420Z'
+  SNYK-JS-LODASH-567746:
+    - gatsby > node-sass > gaze > globule > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - typography > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - typography-plugin-code > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > postcss-reporter > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-generator > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-register > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-react-hmre > babel-plugin-react-transform > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > sass-graph > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > sass-loader > async > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-react-hmre > react-transform-hmr > react-proxy > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:mime:20170907':
+    - gatsby > hapi-webpack-plugin > webpack-dev-middleware > mime:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:moment:20170905':
+    - gatsby > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > catbox > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > h2o2 > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > heavy > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > inert > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > statehood > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > hapi > vision > joi > moment:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:ms:20170412':
+    - gatsby > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > detect-port > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > path-array > array-index > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:qs:20170213':
+    - gatsby > node-sass > request > qs:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > qs:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:stringstream:20180511':
+    - gatsby > node-sass > request > stringstream:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > stringstream:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:tough-cookie:20170905':
+    - gatsby > node-sass > request > tough-cookie:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:46:47.420Z'
+  'npm:tunnel-agent:20170305':
+    - gatsby > node-sass > request > tunnel-agent:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > node-sass > node-gyp > request > tunnel-agent:
+        patched: '2022-10-07T21:46:47.420Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2022-10-07T21:46:47.420Z'
