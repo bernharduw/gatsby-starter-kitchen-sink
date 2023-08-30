@@ -1,0 +1,82 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > tar-pack > debug
+  'npm:extend:20180424':
+    - gatsby > postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:extend:20180424'
+        path: gatsby > postcss-import > pkg-resolve > jspm > liftoff > extend
+    - gatsby > postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > proper-lockfile >
+          extend
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > hawk > hoek
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > hawk > sntp > hoek
+  'npm:mime:20170907':
+    - gatsby > less > mime:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:mime:20170907'
+        path: gatsby > less > mime
+  'npm:ms:20170412':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > tar-pack > debug > ms
+  'npm:qs:20170213':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > qs
+  'npm:stringstream:20180511':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > stringstream
+  'npm:tough-cookie:20170905':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T14:57:00.958Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          gatsby > hapi-webpack-plugin > webpack > watchpack > chokidar >
+          fsevents > node-pre-gyp > request > tunnel-agent
